@@ -10,10 +10,11 @@
     padding: 0;
     background-color: #4c2e6a;
   height:18px;
+    width:100%;
   text-align:center;
-  
-  
-}
+  overflow: hidden;
+    position:fixed;
+  }
 li{
     display: inline;
     
