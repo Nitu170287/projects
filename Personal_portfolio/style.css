@@ -1,0 +1,158 @@
+
+*{
+    margin:0;
+    padding: 0;
+   /* box-sizing: border-box;*/
+}
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4c2e6a;
+  height:18px;
+  text-align:center;
+  
+  
+}
+li{
+    display: inline;
+    
+   }
+a{
+    
+    padding: 50px;
+  text-decoration:none;
+  color:black;
+}
+  
+li a{
+    color:white;
+  }
+  
+
+ul li:hover{
+background-color:#B266FF;
+  /*font-size: 150%;*/
+    
+ }
+
+
+
+/*@media (max-width:28.75em){
+    .navbar{
+        justify-content: center;
+    }
+    .nav-list{
+        margin: 0 1rem;
+    }
+}*/
+
+#welcome-section{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    background-image:url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtbWlzY3RleHR1cmUwMS1iZWVyLTAwMF81LmpwZw.jpg?s=HsmcUASyIhByOR7WVG7d5Bb0Sbc2LRpOGn1Wlh8gxgA);    /*#CCCCFF*/
+  
+}
+
+
+.welcome-background{
+    width:75%;
+    height: 70vh;
+    background-color:white;
+    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top: 50px solid transparent;
+   border-bottom: 10px solid #CC99FF;
+   border-right: 10px solid #CC99FF;
+   border-left: 50px solid transparent;
+  text-align:center;
+  font-size:18px;
+  
+}
+.profile-intro{
+  width:50%;
+  position:absolute;
+  bottom:130px;
+  left:130px;
+  
+}
+
+.profile-pic{
+  width:100px;
+  height:100px;
+   position:absolute;
+  right:90px;
+  top:50px;
+  background-color:#CC99FF;
+  border-radius:200px 50px 0px 250px;
+}
+.profile-pic img{
+  width:100px;
+  height:100px;
+  position:absolute;
+  top:10px;
+  right:20px;
+  border-radius:70px;
+  box-shadow: 0 5px 5px 0 gray ;
+}
+
+
+.welcome-header{
+    font-size: 3rem;
+    font-style: italic;
+}
+/*project Section */  
+
+#projects{
+    width:100%;
+    height:100vh;
+    background-color:rgb(165, 165, 224) ;
+}
+.project-image{
+  width: 175px;
+  height:120px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.project-grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px ;
+  grid-column-gap: 20px;
+}
+
+.project-grid a{
+  width:100%;
+  text-align: center !important;
+}
+
+/* contact section */
+.contact-section{
+  display:flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
+width:100%;
+margin-top:0px;
+background-color:lightgray;
+}
+.contact-link{
+  width:100%;
+  height:100px;
+  text-align: center;
+  padding-top: 30px;;
+
+  
+}
+.contact-link a{
+  color:rgb(97, 97, 103);
+  
+}
